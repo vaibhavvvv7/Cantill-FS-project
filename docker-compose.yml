@@ -1,0 +1,7 @@
+services:
+  corvo-app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - KIT_DIR=api/Cantill_FullStack_Task_Kit
